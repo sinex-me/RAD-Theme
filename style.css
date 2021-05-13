@@ -8,10 +8,10 @@ Tags: fancy, responsive, classic
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #0011ff;
-    --red: #001aff;
-    --orange: #5500f3;
+    --purple: #4723d9;
+    --pink: #ee3577;
+    --red: #dc3545;
+    --orange: #f68e62;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -19,7 +19,7 @@ Tags: fancy, responsive, classic
     --white: #fff;
     --gray: #767575;
     --gray-dark: #434242;
-    --primary: #6f42c1;
+    --primary: #404647;
     --secondary: #4f4f4f;
     --success: #28a745;
     --info: #17a2b8;
@@ -33,15 +33,18 @@ Tags: fancy, responsive, classic
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
     /* Font Sizes */
     --font-normal: 1em;
     --font-small: 0.8125rem;
     /* Sidebar */
-    --sidebar-width: 280px;
+    --sidebar-width: 200px;
     --content-max-width: 860px;
-}
+  }
 
 *,
 *::before,
@@ -57,7 +60,7 @@ body {
     overflow-x: hidden
 }
 a{
-    color: var(--pink);
+    color: var(--primary);
 }
 h1,
 h2,
@@ -107,7 +110,7 @@ h6 {
     top: 0;
     height: 100vh;
     width: var(--sidebar-width);
-    background: var(--primary);
+    background: #909090;
     color: #fff
 }
 .header .site-title {
@@ -216,10 +219,9 @@ h6 {
 .footer a {
     color: #fff
 }
-/* .gradient{
+.gradient{
     background: rgb(43,43,43);
-    background: linear-gradient(151deg, var(--orange) 0%, var(--pink) 35%,var(--primary) 100%) !important;
-} */
+}
 .content .post .title {
     font-size: 1.275rem
 }
