@@ -9,9 +9,9 @@ Tags: fancy, responsive, classic
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
-    --pink: #ee3577;
-    --red: #dc3545;
-    --orange: #f68e62;
+    --pink: #0011ff;
+    --red: #001aff;
+    --orange: #5500f3;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -216,10 +216,10 @@ h6 {
 .footer a {
     color: #fff
 }
-.gradient{
+/* .gradient{
     background: rgb(43,43,43);
     background: linear-gradient(151deg, var(--orange) 0%, var(--pink) 35%,var(--primary) 100%) !important;
-}
+} */
 .content .post .title {
     font-size: 1.275rem
 }
