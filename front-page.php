@@ -13,17 +13,12 @@
 
 			while(have_posts()){
 				the_post();
-
-                get_template_part('template-parts/content', 'archive');
+				the_content();
 			}
 		}
 
 		?>
-	    <?php
-
-        the_posts_pagination();
-
-        ?>
+	    
 	    </article>
 	    
 

@@ -1,11 +1,4 @@
-/**
-Theme Name: Rad WP Theme
-Author: sinex, benyam, and samson
-Version: 1.0
-Tags: fancy, responsive, classic
- **/
-
- :root {
+:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -151,19 +144,19 @@ h6 {
     font-weight: bold
 }
 
-.header .nav-item.active a {
+.header .nav-item.active .nav-link {
     color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-item.active a:hover {
+.header .nav-item.active .nav-link:hover {
     text-decoration: none
 }
 
-.header .nav-item a {
+.header .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.8)
 }
 
-.header .nav-item a:hover {
+.header .nav-item .nav-link:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.6)
 }
@@ -273,7 +266,7 @@ h6 {
     display: none
 }
 
-.blog-nav a {
+.blog-nav .nav-link {
     background: var(--primary);
     color: #fff;
     font-size: 1rem;
@@ -282,7 +275,7 @@ h6 {
     position: relative
 }
 
-.blog-nav a:hover {
+.blog-nav .nav-link:hover {
     background: var(--secondary);
 }
 
